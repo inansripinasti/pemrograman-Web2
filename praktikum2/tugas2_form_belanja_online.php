@@ -79,22 +79,26 @@
         <div class="row" style="margin : 50px;">
             <div class="col-md-12">
             <table class="table table-bordered">
-            <tr class="table-primary text-uppercase">
-                <th>Nama</th>
-                <th>Produk</th>
-                <th>Jumlah</th>
-                <th>harga</th>
-            </tr>
-            <?php require_once "proses.php"; ?>
-            <tr>
-                <td><?= $nama; ?></td>
-                <td><?= $produk; ?></td>
-                <td><?= $jumlah; ?></td>
-                <td><?= "Rp " . number_format($harga, 0, ",", "."); ?></td>
-            </tr>
-        </table>
+                <tr class="table-primary text-uppercase">
+                    <th>Nama</th>
+                    <th>Produk</th>
+                    <th>Jumlah</th>
+                    <th>harga</th>
+                </tr>
+                <?php require_once "proses.php"; ?>
+                <tr>
+                    <td><?= $nama; ?></td>
+                    <td><?= $produk; ?></td>
+                    <td><?= $jumlah; ?></td>
+                    <td><?= "Rp " . number_format($harga, 0, ",", "."); ?></td>
+                </tr>
+            </table>
             </div>
         </div>
     </div>
+    <hr>
+    <footer style="margin: 25px; text-align:center;">
+        &copy;Inan Sri Pinasti
+    </footer>
 </body>
 </html>
