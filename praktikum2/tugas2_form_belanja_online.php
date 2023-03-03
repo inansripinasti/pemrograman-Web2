@@ -83,7 +83,7 @@
                     <th>Nama</th>
                     <th>Produk</th>
                     <th>Jumlah</th>
-                    <th>harga</th>
+                    <th>Total Harga</th>
                 </tr>
                 <?php require_once "tugas2_proses.php"; ?>
                 <tr>
