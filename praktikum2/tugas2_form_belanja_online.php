@@ -22,7 +22,7 @@
                 <h3>
                     Belanja Online
                 </h3>
-                <form method="POST">
+                <form action="tugas2_form_belanja_online.php" method="POST">
                     <div class="form-group row">
                         <label for="nama" class="col-4 col-form-label">Costumer</label> 
                         <div class="col-8">
@@ -78,14 +78,14 @@
         <hr>
         <div class="row" style="margin : 50px;">
             <div class="col-md-12">
-            <table class="table table-bordered">
-                <tr class="table-primary text-uppercase">
+            <table class="table  table-bordered">
+                <tr class="table-info text-uppercase">
                     <th>Nama</th>
                     <th>Produk</th>
                     <th>Jumlah</th>
-                    <th>harga</th>
+                    <th>total harga</th>
                 </tr>
-                <?php require_once "proses.php"; ?>
+                <?php require_once "tugas2_proses.php"; ?>
                 <tr>
                     <td><?= $nama; ?></td>
                     <td><?= $produk; ?></td>
